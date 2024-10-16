@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .toolbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .toolbar label, .toolbar input, .toolbar select {
+    margin-left: 10px;
+  }
+  
+  .canvas {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .text-element, .shape-element {
+    position: absolute;
+    cursor: move;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px dashed #ccc;
+    display: inline-block;
+  }
+  
+  .text-element:focus, .shape-element:focus {
+    outline: none;
+    border: 1px solid #000;
+  }
+  
+  .shape-element {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shape-element.rectangle {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .shape-element.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .section-tittle h1{
+    font-size:  50px;
+    text-align: center;
+}
+.section-tittle .line {
+    width: 150px;
+    height: 4px;
+    border: 10px;
+    background: var(--secondary);
+    margin: auto;
+}
+
+section{
+    margin: 80px auto;
+}

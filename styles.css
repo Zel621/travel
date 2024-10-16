@@ -1,0 +1,80 @@
+@import url('https://fonts-googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+: root {
+    --primary : #536942;
+    --secondary : #FFD936;
+    --white : #efefef;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: var(--primary);
+}
+
+#main {
+    background-image: url("./picture/background.jpg");
+    min-height: 70vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+
+}
+.container {
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+}
+.btn {
+    padding: 12px 20px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    color: var(--white);
+}
+.main-content .intro-heading {
+    font-size: 50px;
+}
+.main-content .main-heading {
+    font-size: 110px;
+    margin-top: -20px;
+}
+.main-content p{
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+
+.section-tittle h1{
+    font-size:  50px;
+    text-align: center;
+}
+.services{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.service {
+    width: 300px;
+}
+.service img {
+    max-width: 100%;
+}
+
+
+
+
